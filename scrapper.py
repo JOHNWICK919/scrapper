@@ -1,7 +1,28 @@
+#go to git bash
+#git config --global user.name "Ramesh Pradhan"
+#git config --global user.email "pyrameshpradhan@gmail. com"
+
+#git init
+#git status => if you want to check what are the status of files
+#git diff => if you want to check what are the changes
+#git add .
+#git commit -m "Your message"
+#copy paste git code from github
+
+###################
+# 1. change the code
+# 2. git add .
+# 3. git commit -m "Your message"
+# 4. git push
+########################
+
 import requests
-from bs4 import BeautifulSoup
 import json
+from bs4 import BeautifulSoup
+
 import csv
+
+
 
 url="https://books.toscrape.com"
 
